@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 7f;
 
     void Update()
     {
@@ -18,4 +18,5 @@ public class Movement : MonoBehaviour
         // Move the player
         transform.Translate(movement);
     }
+    // script came from chatgpt
 }
